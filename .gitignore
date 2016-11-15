@@ -1,1 +1,4 @@
 node_modules
+certs/
+!certs/*.cnf
+!certs/*.sh

@@ -13,7 +13,7 @@ var options = {
     key: fs.readFileSync('certs/server-key.pem'),
     cert: fs.readFileSync('certs/server-crt.pem'),
     ca: fs.readFileSync('certs/ca-crt.pem'),
-    crl: fs.readFileSync('certs/ca-crl.pem'),
+    //crl: fs.readFileSync('certs/ca-crl.pem'),
 };
 
 app.use(function (req, res, next) {

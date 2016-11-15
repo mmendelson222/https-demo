@@ -1,12 +1,12 @@
 [ ca ]
-default_ca      = CA_default
+default_ca      = SMX_default
 
-[ CA_default ]
+[ SMX_default ]
 serial = ca-serial
 crl = ca-crl.pem
 database = ca-database.txt
-name_opt = CA_default
-cert_opt = CA_default
+name_opt = SMX_default
+cert_opt = SMX_default
 default_crl_days = 9999
 default_md = md5
 
@@ -20,12 +20,12 @@ output_password        = password
 
 [ req_distinguished_name ]
 C                      = US
-ST                     = MA
-L                      = Boston
-O                      = Example Co
-OU                     = techops
+ST                     = VA
+L                      = Herndon
+O                      = Smartronix Inc
+OU                     = devops
 CN                     = ca
-emailAddress           = certs@example.com
+emailAddress           = administrator@smartronix.com
 
 [ req_attributes ]
 challengePassword      = test

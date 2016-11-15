@@ -8,12 +8,12 @@ x509_extensions        = v3_ca
 
 [ req_distinguished_name ]
 C                      = US
-ST                     = MA
-L                      = Boston
-O                      = Example Co
-OU                     = techops
+ST                     = VA
+L                      = Herndon
+O                      = Smartronix Inc
+OU                     = devops
 CN                     = localhost
-emailAddress           = certs@example.com
+emailAddress           = administrator@smartronix.com
 
 [ req_attributes ]
 challengePassword      = password
