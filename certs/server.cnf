@@ -10,10 +10,10 @@ x509_extensions        = v3_ca
 C                      = US
 ST                     = VA
 L                      = Herndon
-O                      = Smartronix Inc
+O                      = Mycorp Inc
 OU                     = devops
 CN                     = localhost
-emailAddress           = administrator@smartronix.com
+emailAddress           = administrator@mycorp.com
 
 [ req_attributes ]
 challengePassword      = password
