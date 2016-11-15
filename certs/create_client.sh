@@ -17,7 +17,7 @@ echo sign the new cert
 openssl x509 -req -extfile $1.cnf -days 999 -passin "pass:password" -in $1-csr.pem -CA ca-crt.pem -CAkey ca-key.pem -CAcreateserial -out $1-crt.pem 
 
 echo remove temporary config file
-#rm $1.cnf
+rm $1.cnf
 
 echo verify
 openssl verify -CAfile ca-crt.pem $1-crt.pem
