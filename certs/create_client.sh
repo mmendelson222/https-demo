@@ -22,6 +22,6 @@ rm $1.cnf
 echo verify
 openssl verify -CAfile ca-crt.pem $1-crt.pem
 
-echo create pfx file for windows (with no pw)
+echo 'create pfx file for windows browser'
 openssl pkcs12 -export -out $1.pfx -inkey $1-key.pem -in $1-crt.pem -passout "pass:"
 
