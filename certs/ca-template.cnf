@@ -1,10 +1,10 @@
 [ ca ]
-default_ca      = SMX_default
+default_ca      = SMX_default_replace_me
 
 [ SMX_default ]
-serial = ca-serial
-crl = ca-crl.pem
-database = ca-database.txt
+serial = replace_me-serial
+crl = replace_me-crl.pem
+database = replace_me-database.txt
 name_opt = SMX_default
 cert_opt = SMX_default
 default_crl_days = 9999
@@ -24,7 +24,7 @@ ST                     = VA
 L                      = Herndon
 O                      = Mycorp Inc
 OU                     = devops
-CN                     = ca
+CN                     = replace_me
 emailAddress           = administrator@mycorp.com
 
 [ req_attributes ]
