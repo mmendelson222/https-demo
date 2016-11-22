@@ -21,7 +21,7 @@ curl -v -s -k --key snort-key.pem --cert snort-crt.pem https://localhost:4433
 ```
 
 ### Testing with a browser
-1. Add the client pfx file to your certificate store.
+1. Add the client pfx file to your certificate store.  Because you're using a newly created CA, you'll probably need to add that pfx as well.
 2. Browse to https://localhost:4433.  
 3. You should be presented with a dialog box.  Choose the client certificate.
 
